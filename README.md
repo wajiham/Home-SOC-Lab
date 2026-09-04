@@ -63,8 +63,6 @@ Each VM has two virtual NICs:
 
 The Kali attacker is intentionally **not bridged** onto the physical LAN.
 
-![Initial network architecture](screenshots/07-network-architecture-original.png)
-
 ---
 
 ## Host System
