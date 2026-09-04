@@ -410,24 +410,3 @@ The final configuration confirmed the fixed `192.168.146.50` Host-only address:
 
 ---
 
-# 15. Final base-network configuration
-
-| Machine | Host-only address | Purpose |
-|---|---|---|
-| `SOC-WAZUH` | `192.168.146.10/24` | SIEM |
-| `WIN-ENDPOINT` | `192.168.146.20/24` | Monitored Windows endpoint |
-| `KALI-ATTACKER` | `192.168.146.50/24` | Attack simulator |
-
-Each VM also retains its NAT interface for internet access.
-
-```mermaid
-flowchart LR
-    K["KALI-ATTACKER<br/>192.168.146.50"]
-    W["WIN-ENDPOINT<br/>192.168.146.20"]
-    S["SOC-WAZUH<br/>192.168.146.10"]
-
-    K -->|"future controlled attacks"| W
-    W -->|"future Wazuh + Sysmon telemetry"| S
-```
-
----
