@@ -97,7 +97,7 @@ Because the host has 16 GB RAM, VM allocations are kept conservative and not eve
 
 The full step-by-step build, including troubleshooting and screenshots, is here:
 
-- [`docs/01-base-lab-setup.md`](docs/01-base-lab-setup.md)
+- [`docs/Lab-setup.md`](docs/Lab-setup.md)
 
 ---
 
