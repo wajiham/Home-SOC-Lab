@@ -410,16 +410,19 @@ The final configuration confirmed the fixed `192.168.146.50` Host-only address:
 
 The base network is now complete.
 
-#  Our architecture is now:
+## Our architecture is now:
+
+```text
 Internet
-   │
+   |
 VMware NAT
-   │
-┌───────────────┬───────────────┬───────────────┐
-│               │               │
-WAZUH          WINDOWS          KALI
-│               │               │
-└────── Host-only SOC Network ──┘
-        192.168.146.0/24
+   |
++-------------+-------------+
+|             |             |
+WAZUH       WINDOWS        KALI
+|             |             |
++------ Host-only SOC Network ------+
+          192.168.146.0/24
+```
 ---
 
