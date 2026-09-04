@@ -1,3 +1,1 @@
-# Screenshots
-
-These screenshots were extracted from the original setup.
+These screenshots are extracted from the original setup.
