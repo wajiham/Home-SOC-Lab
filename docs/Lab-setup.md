@@ -1,4 +1,4 @@
-# 01 - Base SOC Lab Setup
+# SOC Lab Setup
 
 This chapter documents the environment from an empty VMware setup through three installed and networked VMs.
 
