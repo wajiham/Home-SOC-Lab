@@ -408,5 +408,8 @@ The final configuration confirmed the fixed `192.168.146.50` Host-only address:
 
 ![Kali static IP confirmed](../screenshots/20-kali-static-ip-confirmed.png)
 
+```
+The base network is now complete.
+```
 ---
 
