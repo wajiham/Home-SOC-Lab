@@ -4,7 +4,7 @@ A practical, hands-on Security Operations Center (SOC) lab built in VMware Works
 
 The goal of this project is to build a small but realistic blue-team environment where I can collect endpoint telemetry, centralize logs, create detections, simulate attacks, investigate alert  and document the complete process.
 
-> **Current status:** The three base VMs and private SOC network are complete. Wazuh SIEM deployment is the next stage.
+> **Current status:** Wazuh SIEM is deployed and the Windows endpoint is enrolled as an active agent. Sysmon integration is the next stage.
 
 ---
 
@@ -96,6 +96,7 @@ Because the host has 16 GB RAM, VM allocations are kept conservative and not eve
 The full step-by-step build, including troubleshooting and screenshots, is here:
 
 - [`docs/Lab-setup.md`](docs/Lab-setup.md)
+- [`docs/Wazuh-siem-deployment.md`](docs/Wazuh-siem-deployment.md)
 
 ---
 
