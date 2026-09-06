@@ -4,7 +4,7 @@ A practical, hands-on Security Operations Center (SOC) lab built in VMware Works
 
 The goal of this project is to build a small but realistic blue-team environment where I can collect endpoint telemetry, centralize logs, create detections, simulate attacks, investigate alert  and document the complete process.
 
-> **Current status:** Wazuh SIEM is deployed and the Windows endpoint is enrolled as an active agent. Sysmon integration is the next stage.
+> **Current status:** Wazuh and Sysmon telemetry are working end-to-end. The lab is ready for its first controlled SOC detection and investigation.
 
 ---
 
