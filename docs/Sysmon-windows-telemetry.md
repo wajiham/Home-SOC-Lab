@@ -391,21 +391,6 @@ but not in Wazuh
 
 ## 15. Test process creation
 
-An early test used:
-
-```powershell
-notepad.exe
-```
-
-Launching Notepad from the Windows GUI appeared in the collected telemetry. For repeatable SOC testing, simple command-line processes are better:
-
-```powershell
-whoami.exe
-hostname.exe
-cmd.exe /c dir
-ping.exe 127.0.0.1
-```
-
 A deterministic process-creation test is:
 
 ```powershell
