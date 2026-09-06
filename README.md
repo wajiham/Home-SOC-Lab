@@ -97,6 +97,7 @@ The full step-by-step build, including troubleshooting and screenshots, is here:
 
 - [`docs/Lab-setup.md`](docs/Lab-setup.md)
 - [`docs/Wazuh-siem-deployment.md`](docs/Wazuh-siem-deployment.md)
+- [`docs/Sysmon-windows-telemetry.md`](docs/Sysmon-windows-telemetry.md)
 
 ---
 
